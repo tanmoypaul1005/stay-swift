@@ -32,11 +32,11 @@ const Navbar = async ({ sideMenu }) => {
                     <li>
                         {
                             session?.user ? (
-                                <idiv>
+                                <div>
                                     <span className="mx-1"> {session?.user?.name} </span>
                                     <span> | </span>
                                     <Logout />
-                                </idiv>
+                                </div>
                             ) : ( <Link href="/login" className="login">
                             Login
                         </Link>)

@@ -1,10 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 import { auth } from "@/auth";
 import Logout from "./auth/Logout";
 
 const Navbar = async ({ sideMenu }) => {
-    
+
     const session = await auth();
 
     return (

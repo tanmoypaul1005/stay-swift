@@ -41,7 +41,6 @@ const Navbar = async ({ sideMenu }) => {
                             Login
                         </Link>)
                         }
-
                     </li>
                 </ul>
             )}

@@ -4,8 +4,9 @@ import { auth } from "@/auth";
 import Logout from "./auth/Logout";
 
 const Navbar = async ({ sideMenu }) => {
+    
     const session = await auth();
-    console.log(session);
+
     return (
         <nav>
             <Link className="text-[30px] font-bold" href="/">
